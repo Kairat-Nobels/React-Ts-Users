@@ -1,0 +1,53 @@
+.createButton {
+  background-color: #28a745;
+  color: #fff;
+  padding-left: 25px !important;
+  padding-right: 16px !important;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #1caf68 !important;
+  }
+}
+
+.button {
+  background-color: transparent !important;
+}
+
+.button:hover {
+  background: unset !important;
+}
+
+.filter-button {
+  background-color: transparent !important;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.add-button {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background-color: #28a745 !important;
+  padding: 5px !important;
+}
+.sortbtn {
+  background-color: #28a745;
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+  padding: 15px 30px;
+  font-size: 18px;
+  width: 90%;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #1caf68 !important;
+  }
+}
